@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to Glitch!</title>
+    <title>Timestamp Microservice Challenge</title>
     <meta name="description" content="A cool thing made with Glitch">
     <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
     <meta charset="utf-8">
@@ -21,26 +21,26 @@
   <body>
     <header>
       <h1>
-        A Dream of the Future
+        Timestamp Microservice
       </h1>
     </header>
 
     <main>
-      <p class="bold">Oh hi,</p>
-      <p>Tell me your hopes and dreams:</p>
-      <form>
-        <input type="text" maxlength="100" placeholder="Dreams!">
-        <button type="submit">Submit</button>
-      </form>
-      <section class="dreams">
-        <ul id="dreams">
-        </ul>
-      </section>
+      <p class="bold">Example usage:</p>
+      <p>https://pattern-ton.glitch.me/23 February, 2018</p>
+      <p>https://pattern-ton.glitch.me/23 February 2018</p>
+      <p>https://pattern-ton.glitch.me/February 23, 2018</p>
+      <p>https://pattern-ton.glitch.me/February 23 2018</p>
+      <p>https://pattern-ton.glitch.me/23%20February%202018</p>
+      <p>https://pattern-ton.glitch.me/1519344000</p>
+      
+      <p class="bold">Example output:</p>
+      <p>{ "unix": 1519344000, "natural": "February 23, 2018" }</p>
     </main>
 
     <footer>
-      <a href="https://glitch.com">
-        Remix this in Glitch
+      <a href="https://github.com/irxd">
+        Made by irxd
       </a>
     </footer>
 
