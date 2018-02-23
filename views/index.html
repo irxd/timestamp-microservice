@@ -1,0 +1,54 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timestamp Microservice Challenge</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Timestamp Microservice
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Example usage:</p>
+      <p>https://pattern-ton.glitch.me/23 February, 2018</p>
+      <p>https://pattern-ton.glitch.me/23 February 2018</p>
+      <p>https://pattern-ton.glitch.me/February 23, 2018</p>
+      <p>https://pattern-ton.glitch.me/February 23 2018</p>
+      <p>https://pattern-ton.glitch.me/23%20February%202018</p>
+      <p>https://pattern-ton.glitch.me/1519344000</p>
+      
+      <p class="bold">Example output:</p>
+      <p>{ "unix": 1519344000, "natural": "February 23, 2018" }</p>
+    </main>
+
+    <footer>
+      <a href="https://github.com/irxd">
+        Made by irxd
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
