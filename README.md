@@ -1,7 +1,7 @@
 Example usage:
 ------------
-- [https://pattern-ton.glitch.me/23%20February%202018](https://pattern-ton.glitch.me/23%20February%202018)
-- [https://pattern-ton.glitch.me/1519344000](https://pattern-ton.glitch.me/1519344000)
+- [https://stampit.glitch.me/23%20February%202018](https://pattern-ton.glitch.me/23%20February%202018)
+- [https://stampit.glitch.me/1519344000](https://pattern-ton.glitch.me/1519344000)
 
 Example output:
 ------------
